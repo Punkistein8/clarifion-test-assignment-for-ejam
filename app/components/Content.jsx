@@ -15,11 +15,11 @@ export const Content = () => {
     <div>
       <div className="bg-[#FAFAFA] mx-auto w-3/4 rounded-md grid grid-cols-2">
         <div className="flex flex-col">
-          <Image src={phoneClarifion} width={575} height={591} className="mt-8 mx-auto max-w-[575px]" />
+          <Image src={phoneClarifion} width={575} height={591} className="mt-8 mx-auto max-w-[575px]" alt="Phone Clarifion" />
           <div className="bg-white mt-10 mx-auto mb-10 w-full max-w-[575px] rounded-md select-none">
             <div className="flex items-center gap-5 mt-5 mx-5 font-[Manrope]">
               <div className="bg-[#F2F2F2] rounded-full h-[48px] w-[48px]">
-                <Image src={profilePhoto1} width={48} height={48} className="rounded-full" />
+                <Image src={profilePhoto1} width={48} height={48} className="rounded-full" alt="Profile Photo" />
               </div>
               <div className="flex flex-col">
                 <div className="flex gap-1">
@@ -49,7 +49,7 @@ export const Content = () => {
         <div className="font-[Manrope]">
           <h1 className="capitalize text-[32px] mt-8"><span className="text-[#2C7EF8]">ONE TIME ONLY</span> special price for 6 <br /> extra Clarifion for only <span className="text-[#2C7EF8]">$14 each</span> <br /> ($84.00 total!)
           </h1>
-          <Image src={clarifionProduct} width={575} height={591} className="mt-4" />
+          <Image src={clarifionProduct} width={575} height={591} className="mt-4" alt="Clarifion Product" />
           <div className="flex flex-col my-4">
             <div className="flex gap-4 mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#2C7EF8" width={30} height={30}>
@@ -70,11 +70,11 @@ export const Content = () => {
               <p className="text-[16px] text-[#4D5254]"><b>Perfect for every room</b> in all types of places.</p>
             </div>
           </div>
-          <Image src={saveDiscount} width={542} height={56} className="mb-6 mx-auto" />
+          <Image src={saveDiscount} width={542} height={56} className="mb-6 mx-auto" alt="Save Discount" />
           <button className="bg-green-600 text-white font-bold text-[20px] rounded-full w-full h-[56px] mb-3 hover:bg-green-700 transition-all ease-in-out">YES - CLAIM MY DISCOUNT → </button>
-          <Image src={cards} width={542} height={33} className="mt-2 mb-10 mx-auto" />
+          <Image src={cards} width={542} height={33} className="mt-2 mb-10 mx-auto" alt="Cards" />
           <p className="text-red-600 underline underline-offset-1 mx-auto text-center w-full text-[18px]">NO THANKS, I DON'T WANT THIS.</p>
-          <Image src={satisfactionGuarantee} width={420} className="mx-auto mt-10 w-[600px]"/>
+          <Image src={satisfactionGuarantee} width={420} className="mx-auto mt-10 w-[600px]" alt="Satisfaction Guarantee" />
         </div>
       </div>
     </div >
