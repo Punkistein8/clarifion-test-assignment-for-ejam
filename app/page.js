@@ -4,6 +4,7 @@ import { NavbarBrands } from './components/Navbar.Brands'
 import { NavbarHeadTitle } from './components/Navbar.HeadTitle'
 import Steps from './components/Steps'
 import { Content } from './components/Content'
+import { Footer } from './components/Footer'
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       <NavbarBrands />
       <NavbarHeadTitle />
       <Steps />
-      <Content /> 
+      <Content />
+      <Footer />
     </>
   )
 }
